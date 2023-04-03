@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Welcome To Site!" />
     
        <h1 style="color:brown">Quick brown fox</h>
     
