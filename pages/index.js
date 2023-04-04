@@ -17,6 +17,7 @@ export default function Home() {
           <h1><a href="https://pvpython.pythonanywhere.com">PV Python Home</a></h1>
         </div>
 
+        <div>
             <Link
               href='/about'
               style={{
