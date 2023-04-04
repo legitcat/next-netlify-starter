@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import styles from '@styles/popup.css'
 
 export default function Home() {
   return (
@@ -13,6 +12,8 @@ export default function Home() {
 
       <main>
         <Header title="Welcome To Site!" />
+    
+       <h1>Hello</h1>
    
       </main>
 
