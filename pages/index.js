@@ -20,20 +20,7 @@ export default function Home() {
         </div>
 
         <div>
-          <div style={{ padding: 30 }}>
-            <p>
-              <Link
-                href='/contact'
-                style={{
-                  textDecoration: 'underline',
-                  color: 'blue',
-                  fontSize: 30,
-                }}
-              >
-                Contact Us
-              </Link>
-            </p>
-          </div>
+            styles["brick"];
         </div>    
     
       </main>
