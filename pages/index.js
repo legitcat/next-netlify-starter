@@ -8,6 +8,8 @@ export default function Home() {
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="./styles/popup.css"></link>
+        <link rel="stylesheet" href="./styles/popup2.css"></link>
       </Head>
 
       <main>
