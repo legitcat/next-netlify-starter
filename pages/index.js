@@ -1,11 +1,6 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import styles from "./styles.popup.css";
-
-const getTopSide = () => {
-    return styles["topside"];
-  };
 
 export default function Home() {
   return (
@@ -17,6 +12,8 @@ export default function Home() {
 
       <main>
         <Header title="Welcome To Site!" />
+      
+       <div className="topside"></div>
    
       </main>
 
