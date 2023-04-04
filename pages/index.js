@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import styles from "@styles/popup.css";
+import styles from "@styles/popup.css"
 
 export default function Home() {
   return (
