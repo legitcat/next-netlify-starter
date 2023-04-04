@@ -8,6 +8,10 @@ const getTopSide = () => {
    return styles["topside"];
   };
 
+const getTopBin = () => {
+   return styles["topside-bin"];
+  };
+
 
 export default function Home() {
   return (
@@ -19,9 +23,6 @@ export default function Home() {
 
       <main>
         <Header title="Welcome To Site!" />
-   
-        <div className={getTopSide()}>
-        </div>    
     
       </main>
 
