@@ -16,11 +16,7 @@ export default function Home() {
         <Header title="Welcome To Site!" />
    
         <div>
-          <h1><a href="https://pvpython.pythonanywhere.com">PV Python Home</a></h1>
-        </div>
-
-        <div>
-            styles["brick"];
+            <a style="font-size:30px;" href="/api/ticker"><div className={topside-bin()}></div></a>
         </div>    
     
       </main>
