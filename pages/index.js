@@ -19,8 +19,8 @@ export default function Home() {
             </div>
     
             <div className="both1">
-               <a style="font-size:28px;" href="https://pvpython.pythonanywhere.com"><div className='side1'>&nbsp;MySQL</div></a>
-               <a style="font-size:28px" href="https://pvpython.pythonanywhere.com"><div className='side2' align='right'>&nbsp;Python</div></a>
+               <a href="https://pvpython.pythonanywhere.com"><div className='side1'>&nbsp;MySQL</div></a>
+               <a href="https://pvpython.pythonanywhere.com"><div className='side2'>&nbsp;Python</div></a>
             </div> 
     
             <div className="stud1"></div>
