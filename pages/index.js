@@ -3,7 +3,7 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 const getTopSide = () => {
-    return styles.topside;
+    return styles["topside"];
   };
 
 export default function Home() {
