@@ -16,10 +16,6 @@ export default function Home() {
 
       <main>
         <Header title="Welcome To Site!" />
-      
-        <div className={getTopSide()}></div>
-    
-       <h1>Hello</h1>
    
       </main>
 
