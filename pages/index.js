@@ -12,13 +12,7 @@ export default function Home() {
 
       <main>
         <Header title="Welcome To Site!" />
-    
-       <h1>Quick brown fox trot tango</h1>
-    
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-    
+   
         <div>
           <h1><a href="https://pvpython.pythonanywhere.com">PV Python Home</a></h1>
         </div>
