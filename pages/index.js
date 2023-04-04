@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
-const getTopStyle = () => {
+const getTopSide = () => {
     return styles.topside;
   };
 
@@ -16,6 +16,8 @@ export default function Home() {
 
       <main>
         <Header title="Welcome To Site!" />
+      
+        <div className={getTopSide()}></div>
     
        <h1>Hello</h1>
    
