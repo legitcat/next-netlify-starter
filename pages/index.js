@@ -3,6 +3,10 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import Link from 'next/link';
 
+const getBrick = () => {
+   return styles["topside"];
+  };
+
 
 export default function Home() {
   return (
@@ -16,7 +20,7 @@ export default function Home() {
         <Header title="Welcome To Site!" />
    
         <div>
-            styles['topside-bi']
+            <button className={getBrick()} onClick={handleMovClick}>
         </div>    
     
       </main>
