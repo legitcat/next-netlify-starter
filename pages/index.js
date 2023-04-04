@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome To Site123!" />
+        <Header title="Welcome To Site ABC!" />
     
        <h1>Quick brown fox trot</h1>
     
