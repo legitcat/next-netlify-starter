@@ -13,6 +13,7 @@ export default function Home() {
       <main>
       
          <div className="container">
+    
             <div className="topside-bin">
                <a href=""><div className='topside'></div></a>
             </div>
@@ -22,15 +23,16 @@ export default function Home() {
                <a style="font-size:28px" href="https://pvpython.pythonanywhere.com"><div className='side2' align='right'>&nbsp;Python</div></a>
             </div> 
     
+            <div className="stud1"></div>
+            <div className="stud2"></div>
+            <div className="stud3"></div>
+            <div className="stud4"></div>
+            <div className="stud5"></div>
+            <div className="stud6"></div>
+    
          </div>
     
-        <div className="stud1"></div>
-        <div className="stud2"></div>
-        <div className="stud3"></div>
-        <div className="stud4"></div>
-        <div className="stud5"></div>
-        <div className="stud6"></div>
-   
+ 
       </main>
 
       <Footer />
