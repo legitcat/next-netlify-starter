@@ -19,7 +19,6 @@ export default function Home() {
 
         <div>
             <Link
-              href='/about'
               style={{
 
                     .brick {
@@ -194,7 +193,23 @@ export default function Home() {
                     }
               }}
             >  
-             About
+                  <div class='topside-bin'>
+                    <a style="font-size:30px;" href="/api/ticker"><div class='topside'></div></a>
+                  </div>
+
+                  <div class="both1">
+                     <a style="font-size:28px;" href="https://pvpython.pythonanywhere.com"><div class='side1'>&nbsp;MySQL</div></a>
+                     <a style="font-size:28px" href="https://pvpython.pythonanywhere.com"><div class='side2' align='right'>&nbsp;Python</div></a>
+                  </div> 
+
+                  <div class="stud1"></div>
+                  <div class="stud2"></div>
+                  <div class="stud3"></div>
+                  <div class="stud4"></div>
+                  <div class="stud5"></div>
+                  <div class="stud6"></div>
+                  <div class="stud7"></div>
+                  <div class="stud8"></div>
             </Link>
               
          </div>      
