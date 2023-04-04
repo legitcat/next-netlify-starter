@@ -16,7 +16,7 @@ export default function Home() {
         <Header title="Welcome To Site!" />
    
         <div>
-            <a style="font-size:30px;" href="/api/ticker"><div className={topside-bin()}></div></a>
+            styles['topside-bi']
         </div>    
     
       </main>
