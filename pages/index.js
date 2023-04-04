@@ -4,6 +4,9 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
+    
+  <body style="background-color:black"> 
+    
     <div className="container">
       <Head>
         <title>Next.js Starter!</title>
@@ -11,9 +14,6 @@ export default function Home() {
       </Head>
 
       <main>
-         
-         <body style="background-color:black">
-      
              <table>
                 <td>
                    <tr>
@@ -40,12 +40,13 @@ export default function Home() {
                     </tr>
                  </td>
              </table>  
-    
-         </body>
  
       </main>
 
       <Footer />
     </div>
+    
+  </body> 
+        
   )
 }
