@@ -11,30 +11,28 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />   
       </Head>
 
-      <main>
-    
-           <div className="container">
-              <div className="brick" style="background-color:black;">
+      <main>    
 
-                <div className='topside-bin'>
-                  <a style="font-size:30px;" href="/api/ticker"><div className='topside'></div></a>
-                </div>
+            <div className="brick" style="background-color:black;">
 
-                <div className="both1">
-                   <a style="font-size:28px;" href="/api/ticker"><div className='side1'> Ticker</div></a>
-                   <a style="font-size:28px" href="/api/ticker"><div className='side2' align='right'>API</div></a>
-                </div>      
-
-                <div className="stud1"></div>
-                <div className="stud2"></div>
-                <div className="stud3"></div>
-                <div className="stud4"></div>
-                <div className="stud5"></div>
-                <div className="stud6"></div>
-
+              <div className='topside-bin'>
+                <a style="font-size:30px;" href="/api/ticker"><div className='topside'></div></a>
               </div>
 
-           </div>
+              <div className="both1">
+                 <a style="font-size:28px;" href="/api/ticker"><div className='side1'> Ticker</div></a>
+                 <a style="font-size:28px" href="/api/ticker"><div className='side2' align='right'>API</div></a>
+              </div>      
+
+              <div className="stud1"></div>
+              <div className="stud2"></div>
+              <div className="stud3"></div>
+              <div className="stud4"></div>
+              <div className="stud5"></div>
+              <div className="stud6"></div>
+
+            </div>
+
  
       </main>
 
