@@ -4,15 +4,6 @@ import Footer from '@components/Footer'
 import Link from 'next/link';
 import styles from "@styles/popup.css";
 
-const getTopSide = () => {
-   return styles["topside"];
-  };
-
-const getTopBin = () => {
-   return styles["topside-bin"];
-  };
-
-
 export default function Home() {
   return (
     <div className="container">
@@ -23,6 +14,8 @@ export default function Home() {
 
       <main>
         <Header title="Welcome To Site!" />
+     
+        <h1><a href="pvpython.pythonanywhere.com">Python/MySQL</a></h1>
     
       </main>
 
