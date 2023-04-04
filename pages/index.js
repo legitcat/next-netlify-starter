@@ -13,7 +13,11 @@ export default function Home() {
       <main>
         <Header title="Welcome To Site!" />
       
-       <div className="topside"></div>
+       <div classNam e="container">
+          <div className="topside-bin">
+             <a href=""><div className='topside'></div></a>
+          </div>
+       </div>
    
       </main>
 
