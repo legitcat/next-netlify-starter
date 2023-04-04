@@ -14,6 +14,7 @@ export default function Home() {
         <Header title="Welcome To Site!" />
     
        <h1>Quick brown fox trot</h1>
+       <Link href="/index.html> Index </Link>
     
         <p className="description">
           Get started by editing <code>pages/index.js</code>
