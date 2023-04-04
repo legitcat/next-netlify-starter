@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome To Site ABC!" />
+        <Header title="Welcome To Site!" />
     
-       <h1>Quick brown fox trot</h1>
+       <h1>Quick brown fox trot tango</h1>
     
         <p className="description">
           Get started by editing <code>pages/index.js</code>
