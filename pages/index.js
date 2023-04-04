@@ -5,8 +5,6 @@ import Footer from '@components/Footer'
 export default function Home() {
   return (
     
-  <body style="background-color:black"> 
-    
     <div className="container">
       <Head>
         <title>Next.js Starter!</title>
@@ -14,39 +12,35 @@ export default function Home() {
       </Head>
 
       <main>
-             <table>
-                <td>
-                   <tr>
-                       <div className="container">
+    
+           <div class="container">
+              <div class="brick" style="background-color:black;">
 
-                          <div className="topside-bin">
-                             <a href=""><div className='topside'></div></a>
-                          </div>
+                <div class='topside-bin'>
+                  <a style="font-size:30px;" href="/api/ticker"><div class='topside'></div></a>
+                </div>
 
-                          <div className="both1">
-                             <a href="https://pvpython.pythonanywhere.com"><div className='side1'>&nbsp;MySQL</div></a>
-                             <a href="https://pvpython.pythonanywhere.com"><div className='side2'>&nbsp;Python</div></a>
-                          </div> 
+                <div class="both1">
+                   <a style="font-size:28px;" href="/api/ticker"><div class='side1'> Ticker</div></a>
+                   <a style="font-size:28px" href="/api/ticker"><div class='side2' align='right'>API</div></a>
+                </div>      
 
-                          <div className="stud1"></div>
-                          <div className="stud2"></div>
-                          <div className="stud3"></div>
-                          <div className="stud4"></div>
-                          <div className="stud5"></div>
-                          <div className="stud6"></div>
+                <div class="stud1"></div>
+                <div class="stud2"></div>
+                <div class="stud3"></div>
+                <div class="stud4"></div>
+                <div class="stud5"></div>
+                <div class="stud6"></div>
 
-                       </div>
+              </div>
 
-                    </tr>
-                 </td>
-             </table>  
+           </div>
  
       </main>
 
       <Footer />
     </div>
     
-  </body> 
-        
+
   )
 }
