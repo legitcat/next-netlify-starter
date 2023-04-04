@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Welcome To Site!" />
     
-       <h1 style="color:brown">Quick brown fox</h1>
+       <h1>Quick brown fox</h1>
     
         <p className="description">
           Get started by editing <code>pages/index.js</code>
