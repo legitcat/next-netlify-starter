@@ -20,7 +20,7 @@ export default function Home() {
         </p>
     
         <div>
-          <a href="https://pvpython/pythonanywhere.com">PV Python</a>
+          <h1><a href="https://pvpython.pythonanywhere.com">PV Python Home</a></h1>
         </div>
     
       </main>
