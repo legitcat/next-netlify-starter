@@ -14,10 +14,10 @@ export default function Home() {
       <main>    
 
 
-           <div class="container">
-            <div class="brick" style="background-color:black;">
+           <div className="container">
+            <div className="brick" style="background-color:black;">
 
-                <div class='topside-bin'>
+                <div className='topside-bin'>
                   <a style="font-size:30px;" href=""><div class='topside'></div></a>
                 </div>
 
