@@ -7,6 +7,14 @@ export default function Home() {
     
       <main> 
     
+    <div className="container">
+      <Head>
+        <title>Next.js Starter!</title>
+        <link rel="icon" href="/favicon.ico" />   
+      </Head>
+
+      <main> 
+    
            <div className="container">
             <div className="brick">
 
@@ -15,8 +23,7 @@ export default function Home() {
                 </div>
 
                 <div className="both1">
-
-                       <a href="https://pvpython.pythonanywhere.com"><div className='side1'> Ticker</div></a>
+                   <a href="https://pvpython.pythonanywhere.com"><div className='side1'> Ticker</div></a>
                    <a href="https://pvpython.pythonanywhere.com"><div className='side2'>API</div></a>
                 </div> 
 
@@ -29,6 +36,11 @@ export default function Home() {
     
              </div>
            </div>    
+ 
+      </main>
+
+      <Footer />
+    </div>   
  
       </main>
 
