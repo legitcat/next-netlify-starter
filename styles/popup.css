@@ -52,6 +52,7 @@
   width: 108px;
   background: orange;
   transform: skewY(30deg);
+  text-align: right;
 }
 
 div.both1:hover .side1{background-color:yellow; }
