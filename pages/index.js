@@ -23,8 +23,8 @@ export default function Home() {
                 </div>
 
                 <div className="both1">
-                   <a href="https://pvpython.pythonanywhere.com"><div className='side1'> Ticker</div></a>
-                   <a href="https://pvpython.pythonanywhere.com"><div className='side2'>API</div></a>
+                   <a href="https://pvpython.pythonanywhere.com"><div className='side1'> MySql</div></a>
+                   <a href="https://pvpython.pythonanywhere.com"><div className='side2'>Python</div></a>
                 </div> 
 
                 <div className="stud1"></div>
