@@ -18,12 +18,12 @@ export default function Home() {
             <div className="brick" style="background-color:black;">
 
                 <div className='topside-bin'>
-                  <a style="font-size:30px;" href=""><div class='topside'></div></a>
+                  <a href=""><div class='topside'></div></a>
                 </div>
 
                 <div className="both1">
-                   <a style="font-size:28px;" href="/api/ticker"><div className='side1'> Ticker</div></a>
-                   <a style="font-size:28px" href="/api/ticker"><div className='side2' align='right'>API</div></a>
+                   <a href="https://pvpython.pythonanywhere.com"><div className='side1'> Ticker</div></a>
+                   <a href="https://pvpython.pythonanywhere.com"><div className='side2'>API</div></a>
                 </div>      
 
                 <div className="stud1"></div>
