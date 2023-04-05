@@ -13,8 +13,6 @@ export default function Home() {
 
       <main>    
 
-            <div className="brick" style="background-color:black;">
-
               <div className='topside'>
               </div>
 
@@ -29,8 +27,6 @@ export default function Home() {
               <div className="stud4"></div>
               <div className="stud5"></div>
               <div className="stud6"></div>
-
-            </div>
 
  
       </main>
