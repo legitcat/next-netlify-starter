@@ -15,8 +15,7 @@ export default function Home() {
 
             <div className="brick" style="background-color:black;">
 
-              <div className='topside-bin'>
-                <a style="font-size:30px;" href="/api/ticker"><div className='topside'></div></a>
+              <div className='topside'>
               </div>
 
               <div className="both1">
