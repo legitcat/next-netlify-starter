@@ -15,10 +15,10 @@ export default function Home() {
 
 
            <div className="container">
-            <div className="brick" style="background-color:black;">
+            <div className="brick">
 
                 <div className='topside-bin'>
-                  <a href=""><div class='topside'></div></a>
+                  <a href=""><div className='topside'></div></a>
                 </div>
 
                 <div className="both1">
