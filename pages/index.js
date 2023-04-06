@@ -34,10 +34,13 @@ export default function Home() {
              <br/>
              <image src="./netifly.png" alt="netifly"/>
 
-          </main>
-    
+          </main>    
 
         </div>  
+    
+        <div>
+           <link rel="icon" href="/favicon.ico" /> 
+        </div>
        
 
   )
