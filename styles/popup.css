@@ -66,6 +66,34 @@ div.both1:hover .side2{background-color:yellow; }
 /*-----------------------------------*/
 
 
+.side3 {
+  position: absolute;
+  top: 213px;
+  left: 70px;
+  height: 48px;
+  width: 90px;
+  background: #71FF33;
+  transform: skewY(30deg);
+}
+
+
+.side4 {
+  position: absolute;
+  top: 185px;
+  left: 160px;
+  height: 48px;
+  width: 180px;
+  background: #71FF33;
+  transform: skewY(-30deg);
+}
+
+div.both2:hover .side3{background-color:yellow; }
+div.both2:hover .side4{background-color:yellow; }
+
+/*-----------------------------------*/
+
+
+
 .stud1 {
   position: absolute;
   top: 115px;
