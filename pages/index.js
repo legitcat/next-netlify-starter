@@ -40,7 +40,7 @@ export default function Home() {
     
         <div>
            <link rel="icon" href="/favicon.ico" /> 
-           <link href="/logo-netifly.svg" />            
+        
         </div>
        
 
