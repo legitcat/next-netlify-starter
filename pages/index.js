@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <main> 
-
+         <div className="brick">
             <div className='topside-bin'>
               <a href=""><div className='topside'></div></a>
             </div>
@@ -30,7 +30,7 @@ export default function Home() {
             <div className="stud4"></div>
             <div className="stud5"></div>
             <div className="stud6"></div>
-
+         </div>
  
       </main>
 
