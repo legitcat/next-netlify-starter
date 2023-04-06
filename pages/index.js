@@ -25,12 +25,12 @@ export default function Home() {
                 <div className="stud4"></div>
                 <div className="stud5"></div>
                 <div className="stud6"></div>
+    
+                <p></p><p></p>
+                <image src="netifly.png" />     
+    
              </div>   
     
-             <div>
-                <image src="netifly.png" />         
-             </div>
-
           </main>    
 
         </div>  
