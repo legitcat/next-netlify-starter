@@ -78,6 +78,7 @@ div.both1:hover .side2{background-color:yellow; }
   width: 106px;
   background: #71FF33;
   transform: skewY(30deg);
+  text-align: right;
 }
 
 
