@@ -16,8 +16,12 @@ export default function Home() {
                 <div className="both1">
                    <a href="https://pvpython.pythonanywhere.com"><div className='side2'>Python&nbsp;</div></a>
                    <a href="https://pvpython.pythonanywhere.com"><div className='side1'>&nbsp;MySql</div></a>
-
                 </div> 
+    
+                <div class="both2">
+                   <a style="font-size:28px;" href="https://wired.com"><div className='side3'>Wired&nbsp;</div></a>
+                   <a style="font-size:28px;" href="https://wired.com"><div className='side4'>Mag&nbsp;</div></a>
+                </div>
 
                 <div className="stud1"></div>
                 <div className="stud2"></div>
