@@ -26,8 +26,8 @@ export default function Home() {
                 <div className="stud5"></div>
                 <div className="stud6"></div>
     
-                <p></p><p></p>
-                <image src="netifly.png" />     
+
+                <image className="img1" src="netifly.png" />     
     
              </div>   
     
