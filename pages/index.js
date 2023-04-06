@@ -29,20 +29,15 @@ export default function Home() {
                 <div className="stud4"></div>
                 <div className="stud5"></div>
                 <div className="stud6"></div>
-             </div>
+             </div>   
     
-             <br/>
-             <image src="./netifly.png" alt="netifly"/>
+             <div>
+                <image src="/logo-netifly.svg" />         
+             </div>
 
           </main>    
 
         </div>  
-    
-        <div>
-           <link rel="icon" href="/favicon.ico" /> 
-        
-        </div>
-       
 
   )
 }
