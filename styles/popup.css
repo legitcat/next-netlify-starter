@@ -5,7 +5,7 @@
 
 .brick {
   position: relative;
-  width: 320px;
+  /*width: 320px;*/
   /*border-radius: 30px;*/
   background: #FFFFFF;
   /*box-shadow: 2px 6px 30px 0 rgba(0,0,0,0.4);*/
