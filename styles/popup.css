@@ -83,10 +83,10 @@ div.both1:hover .side2{background-color:yellow; }
 
 .side4 {
   position: absolute;
-  top: 200px;
+  top: 199px;
   left: 178px;
   height: 48px;
-  width: 145.5px;
+  width: 144.5px;
   background: #71FF33;
   transform: skewY(-30deg);
 }
