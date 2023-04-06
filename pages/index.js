@@ -28,7 +28,7 @@ export default function Home() {
              </div>   
     
              <div>
-                <image src="public/netifly.png" />         
+                <image src="netifly.png" />         
              </div>
 
           </main>    
