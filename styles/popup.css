@@ -75,7 +75,7 @@ div.both1:hover .side2{background-color:yellow; }
   top: 213px;
   left: 70px;
   height: 48px;
-  width: 90px;
+  width: 108px;
   background: #71FF33;
   transform: skewY(30deg);
 }
@@ -83,7 +83,7 @@ div.both1:hover .side2{background-color:yellow; }
 
 .side4 {
   position: absolute;
-  top: 185px;
+  top: 195px;
   left: 178px;
   height: 48px;
   width: 145.5px;
