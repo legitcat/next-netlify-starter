@@ -24,12 +24,11 @@ export default function Home() {
                 <div className="stud3"></div>
                 <div className="stud4"></div>
                 <div className="stud5"></div>
-                <div className="stud6"></div>
+                <div className="stud6"></div> 
     
-
-                <img src="netifly.png" />     
+             </div>  
     
-             </div>   
+             <img src="netifly.png" />    
     
           </main>    
 
