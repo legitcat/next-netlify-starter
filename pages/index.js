@@ -32,11 +32,11 @@ export default function Home() {
              </div>
 
           </main>
+    
+          <Footer/>
 
         </div>  
-    
-        <Footer/>
-    
+       
 
   )
 }
