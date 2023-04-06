@@ -6,10 +6,6 @@ export default function Home() {
   return (        
    
         <div>
-          <Head>
-            <title>Next.js Starter!</title>
-            <link rel="icon" href="/favicon.ico" />   
-          </Head>
 
           <main> 
              <div className="brick">
@@ -32,7 +28,7 @@ export default function Home() {
              </div>   
     
              <div>
-                <image src="/logo-netifly.svg" />         
+                <image src="/public/logo-netifly.svg" />         
              </div>
 
           </main>    
