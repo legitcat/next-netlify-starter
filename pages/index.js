@@ -5,7 +5,7 @@ import Footer from '@components/Footer'
 export default function Home() {
   return (        
    
-        <div>
+        <div className="div1">
 
           <main> 
              <div className="brick">
