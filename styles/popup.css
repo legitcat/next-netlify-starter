@@ -1,215 +1,69 @@
-.body {    
-
+/* Button used to open the contact form */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;
+  position: fixed;
+  /*bottom: 23px;*/  
+  width: 280px;
 }
 
-.brick {
-  position: relative;
-  width: 320px;
-  border-radius: 30px;
-  /*background: black;*/
-  /*box-shadow: 2px 6px 30px 0 rgba(0,0,0,0.4);*/
-
-}
-
-.img1{
-  margin-top:30%;
-  width:70%;
-  text-align: center;
-}
-
-.div1{
-  background-color:black;
-}
-
-/*-----------------------------------*/
-
-.topside {
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  /*relative, fixed, absolute*/
   position: absolute;
-  top: 32px;
-  left: 1px;
-  height: 125px;
-  width: 145px;
-  background: #2696DD;
-  transform: skewY(30deg);
-
-}
-.topside-bin {
-  transform: rotate(-60deg);
+  top:9%;
+  left:30%;
+  border: 3px solid #f1f1f1;
+  z-index: 1;
 }
 
-.topside:hover{
-   background-color:yellow;
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+
 }
 
-/*-----------------------------------*/
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
 
-.side1 {
-  position: absolute;
-  top: 152px;
-  left: 178px;
-  height: 48px;
-  width: 145.5px;
-  background: orange;
-  transform: skewY(-30deg);
-}
-  
-.side2 {
-  position: absolute;
-  top: 163px;
-  left: 72px;
-  height: 48px;
-  width: 108px;
-  background: orange;
-  transform: skewY(30deg);
-  text-align: right;
 }
 
-div.both1:hover .side1{background-color:yellow; }
-div.both1:hover .side2{background-color:yellow; }
-
-/*-----------------------------------*/
-
-
-.side3 {
-  position: absolute;
-  top: 209px;
-  left: 72px;
-  height: 48px;
-  width: 106px;
-  background: #71FF33;
-  transform: skewY(30deg);
-  text-align: right;
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
 }
 
-
-.side4 {
-  position: absolute;
-  top: 199px;
-  left: 179px;
-  height: 48px;
-  width: 144.5px;
-  background: #71FF33;
-  transform: skewY(-30deg);
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
 }
 
-div.both2:hover .side3{background-color:yellow; }
-div.both2:hover .side4{background-color:yellow; }
-
-/*-----------------------------------*/
-
-
-
-.stud1 {
-  position: absolute;
-  top: 115px;
-  left: 95px;
-  width: 36px; 
-  height: 30px; 
-  background: #237FBD;
-  margin-top: 6px;
-  border-radius: 18px / 10px;
-}
-.stud1:before {
-  content: ""; 
-  position: absolute;
-  height: 20px;
-  width: 36px;
-  border-radius: 18px / 10px;
-  background: #4CB7FF;
+/* Add a background color to the cancel button */
+.form-container .cancel {
+  background-color: blue;
 }
 
-.stud2 {
-  position: absolute;
-  top: 141px;
-  left: 141px;
-  width: 36px; 
-  height: 30px; 
-  background: #237FBD;
-  margin-top: 6px;
-  border-radius: 18px / 10px;
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
 }
-.stud2:before {
-  content: ""; 
-  position: absolute;
-  height: 20px;
-  width: 36px;
-  border-radius: 18px / 10px;
-  background: #4CB7FF;
-}
-
-.stud3 {
-  position: absolute;
-  top: 90px;
-  left: 141px;
-  width: 36px; 
-  height: 30px; 
-  background: #237FBD;
-  margin-top: 6px;
-  border-radius: 18px / 10px;
-}
-.stud3:before {
-  content: ""; 
-  position: absolute;
-  height: 20px;
-  width: 36px;
-  border-radius: 18px / 10px;
-  background: #4CB7FF;
-}
-
-.stud4 {
-  position: absolute;
-  top: 115px;
-  left: 187px;
-  width: 36px; 
-  height: 30px; 
-  background: #237FBD;
-  margin-top: 6px;
-  border-radius: 18px / 10px;
-}
-.stud4:before {
-  content: ""; 
-  position: absolute;
-  height: 20px;
-  width: 36px;
-  border-radius: 18px / 10px;
-  background: #4CB7FF;
-}
-
-.stud5 {
-  position: absolute;
-  top: 65px;
-  left: 187px;
-  width: 36px; 
-  height: 30px; 
-  background: #237FBD;
-  margin-top: 6px;
-  border-radius: 18px / 10px;
-}
-.stud5:before {
-  content: ""; 
-  position: absolute;
-  height: 20px;
-  width: 36px;
-  border-radius: 18px / 10px;
-  background: #4CB7FF;
-}
-
-.stud6 {
-  position: absolute;
-  top: 89px;
-  left: 233px;
-  width: 36px; 
-  height: 30px; 
-  background: #237FBD;
-  margin-top: 6px;
-  border-radius: 18px / 10px;
-}
-.stud6:before {
-  content: ""; 
-  position: absolute;
-  height: 20px;
-  width: 36px;
-  border-radius: 18px / 10px;
-  background: #4CB7FF;
-}
-
