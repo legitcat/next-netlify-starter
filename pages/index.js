@@ -17,12 +17,12 @@ import Footer from '@components/Footer'
 
   function openContact() {
      document.getElementById("contact").style.display = "block";
-     document.getElementById("mySidenav").style.width
+     closeNav();
   }
 
   function openAbout() {
      document.getElementById("about").style.display = "block";
-     document.getElementById("mySidenav").style.width
+     closeNav();
   }
 
 
@@ -53,6 +53,7 @@ export default function Home() {
 
            <div id="mySidenav" className="sidenav">
               <a href="javascript:void(0)" className="closebtn" onClick={closenav}> &times;</a>
+              <a href="https://paulvgithub.github.io'>Github Page</a>
               <a href="#" onClick={openAbout}>About</a>
               <a href="#" onClick={openContact}>Contact</a>
            </div>
