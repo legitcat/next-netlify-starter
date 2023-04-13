@@ -53,7 +53,7 @@ export default function Home() {
 
            <div id="mySidenav" className="sidenav">
               <a href="javascript:void(0)" className="closebtn" onClick={closenav}> &times;</a>
-              <a href="https://paulvgithub.github.io'>Github Page</a>
+              <a href="https://paulvgithub.github.io">Home</a>
               <a href="#" onClick={openAbout}>About</a>
               <a href="#" onClick={openContact}>Contact</a>
            </div>
