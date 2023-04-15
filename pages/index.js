@@ -30,7 +30,7 @@ export default function Home() {
 
   return (  
 
-    <body>    
+    <body style="background-color:black">    
    
         <div className="div1">
 
@@ -60,7 +60,7 @@ export default function Home() {
               <a href="#" onClick={openContact}>Contact</a>
            </div>
 
-           <button className= "hamburger" onClick={opennav}>&#9776; open</button>
+           <button className= "hamburger" onClick={opennav}>&#9776;</button>
 
 
            <main> 
