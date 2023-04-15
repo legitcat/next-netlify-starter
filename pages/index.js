@@ -30,7 +30,7 @@ export default function Home() {
 
   return (  
 
-    <body style="background-color:black">    
+    <body>    
    
         <div className="div1">
 
