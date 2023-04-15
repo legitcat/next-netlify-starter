@@ -17,12 +17,12 @@ import Footer from '@components/Footer'
 
   function openContact() {
      document.getElementById("contact").style.display = "block";
-     closeNav();
+     document.getElementById("mySidenav").style.width="0;
   }
 
   function openAbout() {
      document.getElementById("about").style.display = "block";
-     closeNav();
+     document.getElementById("mySidenav").style.width="0";
   }
 
 
