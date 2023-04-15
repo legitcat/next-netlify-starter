@@ -28,7 +28,9 @@ import Footer from '@components/Footer'
 
 export default function Home() {
 
-  return (      
+  return (  
+
+    <body>    
    
         <div className="div1">
 
@@ -96,7 +98,9 @@ export default function Home() {
 
          <Footer/>
 
-        </div>  
+        </div> 
+
+    </body> 
 
   )
 
