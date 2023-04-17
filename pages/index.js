@@ -76,9 +76,14 @@ export default function Home() {
                 </div> 
     
                 <div class="both2">
-                   <a href="https://paulvgithub.github.io/blog/"><div className='side4'>&nbsp;Blog</div></a>
-                   <a href="https://paulvgithub.github.io/blog/about/"><div className='side3'>About&nbsp;</div></a>
+                   <a href="https://legitcat.github.io"><div className='side4'>&nbsp;Cat</div></a>
+                   <a href="https://legitcat.github.io/"><div className='side3'>leGit&nbsp;</div></a>
 
+                </div>
+
+                <div class="both3">
+                   <a href="https://legitcat.github.io/blog/"><div className='side5'>Blog&nbsp;</div></a>
+                   <a href="https://legitcat.github.io/blog/about/"><div className='side6'>About&nbsp;</div></a>
                 </div>
 
                 <div className="stud1"></div>
