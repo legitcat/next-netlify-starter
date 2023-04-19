@@ -34,7 +34,7 @@ export default function Home() {
    
         <div className="div1">
 
-           <div class="form-popup" id="contact">
+           <div className="form-popup" id="contact">
               <div className="form-container">
                  <h1>Contact</h1>
                  <a href='#'>Paul Valladares</a> <p></p>
@@ -43,8 +43,8 @@ export default function Home() {
               </div>
            </div>
 
-           <div class="form-popup" id="about">
-              <div class="form-container" >
+           <div className="form-popup" id="about">
+              <div className="form-container" >
                  <h1>About</h1>
                  <a href='#'>Author: Paul Valladares</a> <p></p>
                  <a href='#'>Web Demo</a> <p></p>
@@ -75,13 +75,13 @@ export default function Home() {
                    <a href="https://pvpython.pythonanywhere.com"><div className='side1'>&nbsp;MySql</div></a>
                 </div> 
     
-                <div class="both2">
+                <div className="both2">
                    <a href="https://github.com/legitcat/"><div className='side4'>&nbsp;Repo</div></a>
                    <a href="https://github.com/legitcat/"><div className='side3'>GitHub&nbsp;</div></a>
 
                 </div>
 
-                <div class="both3">
+                <div className="both3">
                    <a href="https://legitcat.github.io/blog/"><div className='side5'>Blog&nbsp;</div></a>
                    <a href="https://legitcat.github.io/blog/about/"><div className='side6'>About&nbsp;</div></a>
                 </div>
