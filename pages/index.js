@@ -29,9 +29,7 @@ import Footer from '@components/Footer'
 export default function Home() {
 
   return (  
-
-    <body>    
-   
+ 
         <div className="div1">
 
            <div className="form-popup" id="contact">
@@ -65,47 +63,43 @@ export default function Home() {
 
            <main> 
 
-             <div className="brick">
-                <div className='topside-bin'>
-                  <a href=""><div className='topside'></div></a>
-                </div>
+                <div className="brick">
+                    <div className='topside-bin'>
+                      <a href=""><div className='topside'></div></a>
+                    </div>
 
-                <div className="both1">
-                   <a href="https://pvpython.pythonanywhere.com"><div className='side2'>Python&nbsp;</div></a>
-                   <a href="https://pvpython.pythonanywhere.com"><div className='side1'>&nbsp;MySql</div></a>
-                </div> 
-    
-                <div className="both2">
-                   <a href="https://github.com/legitcat/"><div className='side4'>&nbsp;Repo</div></a>
-                   <a href="https://github.com/legitcat/"><div className='side3'>GitHub&nbsp;</div></a>
+                    <div className="both1">
+                       <a href="https://pvpython.pythonanywhere.com"><div className='side2'>Python&nbsp;</div></a>
+                       <a href="https://pvpython.pythonanywhere.com"><div className='side1'>&nbsp;MySql</div></a>
+                    </div> 
 
-                </div>
+                    <div className="both2">
+                       <a href="https://github.com/legitcat/"><div className='side4'>&nbsp;Repo</div></a>
+                       <a href="https://github.com/legitcat/"><div className='side3'>GitHub&nbsp;</div></a>
 
-                <div className="both3">
-                   <a href="https://legitcat.github.io/blog/"><div className='side5'>Blog&nbsp;</div></a>
-                   <a href="https://legitcat.github.io/blog/about/"><div className='side6'>About&nbsp;</div></a>
-                </div>
+                    </div>
 
-                <div className="stud1"></div>
-                <div className="stud2"></div>
-                <div className="stud3"></div>
-                <div className="stud4"></div>
-                <div className="stud5"></div>
-                <div className="stud6"></div> 
-  
+                    <div className="both3">
+                       <a href="https://legitcat.github.io/blog/"><div className='side5'>Blog&nbsp;</div></a>
+                       <a href="https://legitcat.github.io/blog/about/"><div className='side6'>About&nbsp;</div></a>
+                    </div>
+
+                    <div className="stud1"></div>
+                    <div className="stud2"></div>
+                    <div className="stud3"></div>
+                    <div className="stud4"></div>
+                    <div className="stud5"></div>
+                    <div className="stud6"></div> 
+
                 </div>   
 
-                <div className="img1">
-
-             </div>   
+                <div className="img1"></div>   
 
            </main>  
 
          <Footer/>
 
         </div> 
-
-    </body> 
 
   )
 
